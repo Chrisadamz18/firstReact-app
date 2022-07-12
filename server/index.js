@@ -8,7 +8,8 @@ const cors = require('cors');
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect("mongodb+srv://elikem:Cd242021@cluster0.mdcgb2v.mongodb.net/smartnetwork?retryWrites=true&w=majority");
+// Your mongokdb connection string
+// mongoose.connect(""); 
 
 
 app.get("/getUsers", (req, res) => {

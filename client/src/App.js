@@ -43,7 +43,15 @@ function App() {
         {listOfUsers.map((user) => {
           return (
             <div>
-              <hi>Name:{user.name }</hi>
+              <hi>Name:{user.name}</hi><br></br>
+              <hi>Team:{user.team}</hi><br></br>
+              <hi>Project:{user.project}</hi><br></br>
+              <hi>Skill:{user.skills}</hi><br></br>
+              <hi>Bio:{user.bio}</hi><br></br>
+              <hi>Hub Affilate:{user.hub}</hi><br></br>
+              <hi>Contact:{user.contact}</hi><br></br>
+               <hi>Email:{user.email }</hi><br></br>
+              
             </div>
             
           );
